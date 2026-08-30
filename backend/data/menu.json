@@ -1,0 +1,27 @@
+{
+  "categories": [
+    { "id": "cat-burgers", "name": "Бургеры", "parentId": null },
+    { "id": "cat-combos", "name": "Комбо", "parentId": null },
+    { "id": "cat-drinks", "name": "Напитки", "parentId": null },
+    { "id": "cat-desserts", "name": "Десерты", "parentId": null }
+  ],
+  "dishes": [
+    { "id": "dish-whopper", "name": "Whopper", "categoryId": "cat-burgers", "available": true },
+    { "id": "dish-bigmac", "name": "Big Mac", "categoryId": "cat-burgers", "available": true },
+    { "id": "dish-combo1", "name": "Комбо 1 (бургер + картошка + напиток)", "categoryId": "cat-combos", "available": true },
+    { "id": "dish-combo2", "name": "Комбо 2 (2 бургера + картошка + 2 напитка)", "categoryId": "cat-combos", "available": true },
+    { "id": "dish-cola", "name": "Coca-Cola 0.5л", "categoryId": "cat-drinks", "available": true },
+    { "id": "dish-icecream", "name": "Макфлури", "categoryId": "cat-desserts", "available": true }
+  ],
+  "offers": [
+    { "id": "off-001", "restaurantId": "rest-burgerking", "dishId": "dish-whopper", "price": 299, "stock": 50, "available": true },
+    { "id": "off-002", "restaurantId": "rest-mcdonalds", "dishId": "dish-whopper", "price": 319, "stock": 30, "available": true },
+    { "id": "off-003", "restaurantId": "rest-burgerking", "dishId": "dish-bigmac", "price": 259, "stock": 40, "available": true },
+    { "id": "off-004", "restaurantId": "rest-mcdonalds", "dishId": "dish-bigmac", "price": 249, "stock": 60, "available": true },
+    { "id": "off-005", "restaurantId": "rest-burgerking", "dishId": "dish-combo1", "price": 499, "stock": 25, "available": true },
+    { "id": "off-006", "restaurantId": "rest-mcdonalds", "dishId": "dish-combo1", "price": 519, "stock": 20, "available": true },
+    { "id": "off-007", "restaurantId": "rest-burgerking", "dishId": "dish-cola", "price": 99, "stock": 100, "available": true },
+    { "id": "off-008", "restaurantId": "rest-mcdonalds", "dishId": "dish-cola", "price": 89, "stock": 120, "available": true },
+    { "id": "off-009", "restaurantId": "rest-mcdonalds", "dishId": "dish-icecream", "price": 129, "stock": 45, "available": true }
+  ]
+}

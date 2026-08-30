@@ -1,0 +1,29 @@
+[
+  {
+    "id": "rest-burgerking",
+    "name": "Burger King",
+    "apiKey": "bk-api-key-8fj3kd92m",
+    "baseUrl": "https://api.burgerking.ru/v2",
+    "enabled": true,
+    "deliveryFee": 150,
+    "avgDeliveryTime": 35
+  },
+  {
+    "id": "rest-mcdonalds",
+    "name": "McDonald's",
+    "apiKey": "mcd-secret-x7h2nf9qw",
+    "baseUrl": "https://mcdonalds.ru/api",
+    "enabled": true,
+    "deliveryFee": 199,
+    "avgDeliveryTime": 30
+  },
+  {
+    "id": "rest-kfc",
+    "name": "KFC",
+    "apiKey": "kfc-test-key-0029dk3",
+    "baseUrl": "https://kfc.ru/api/v1",
+    "enabled": false,
+    "deliveryFee": 179,
+    "avgDeliveryTime": 40
+  }
+]
