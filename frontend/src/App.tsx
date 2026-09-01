@@ -2,6 +2,7 @@
 
 import MockRequestButton from "./components/MockRequestButton";
 import CounterButton from "./components/CounterButton";
+import KeyBugList from "./components/KeyBugList";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div style={styles.grid}>
         <MockRequestButton />
         <CounterButton />
+        <KeyBugList />
       </div>
     </div>
   );
